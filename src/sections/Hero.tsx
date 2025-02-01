@@ -10,20 +10,10 @@ export default function Hero() {
     <section className='overflow-clip py-24'>
       <div className='container relative'>
         <div className='absolute -left-32 top-16 hidden lg:block'>
-          <Image
-            src={desighExampleImage1}
-            alt='Design Example 1'
-            width={310}
-            height={500}
-          />
+          <Image src={desighExampleImage1} alt='Design Example 1' />
         </div>
         <div className='absolute -right-64 -top-16 hidden lg:block'>
-          <Image
-            src={desighExampleImage2}
-            alt='Design Example 2'
-            width={432}
-            height={500}
-          />
+          <Image src={desighExampleImage2} alt='Design Example 2' />
         </div>
         <div className='absolute left-56 top-96 hidden lg:block'>
           <Pointer name='Andrea' />
