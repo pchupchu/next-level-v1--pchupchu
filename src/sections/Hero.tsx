@@ -48,7 +48,7 @@ export default function Hero() {
           action='post'
           className='mx-auto mt-8 flex max-w-lg rounded-full border border-white/15 p-2'>
           <input
-            className='bg-transparent px-4 md:flex-1'
+            className='w-full bg-transparent px-4 md:flex-1'
             type='email'
             name='email'
             placeholder='Enter your email'
